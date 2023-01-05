@@ -3,6 +3,13 @@
   font-family: "Open Sans", sans-serif;
 }
 /* header and navigation style */
+
+.header{
+    background-color: aliceblue;
+    background-image: url(images/header_bg.png),url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -34,4 +41,31 @@ nav li {
 
 .text-primary {
   color: orangered;
+}
+
+/* banner  style */
+
+.banner{
+   display: flex;
+   align-items: center;
+    margin: 0 100px;
+   
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.sub-tittle{
+    font-weight: 600;
+        font-size: 45px;
+}
+        
+.banner-tittle{
+    font-weight: 700;
+    font-size: 85px;
+
+}
+.pragraph{
+    color: #757575;
+    margin-bottom: 30px;
+
 }
